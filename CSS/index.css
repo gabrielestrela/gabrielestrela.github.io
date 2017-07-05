@@ -33,28 +33,116 @@ body {
 }
 
 #intro-caption blockquote {
-    border: 2px solid rgba(251,140,80,0.5)!important;
+    border: 2px solid rgba(251, 140, 80, 0.5)!important;
     font-size: 30px;
     padding-left: 0;
     background-color: rgba(0, 0, 0, 0.2)
 }
 
-.center{
+.center {
     text-align: center;
     vertical-align: middle;
 }
 
-.promo{
+.promo {
     width: 100%;
 }
 
-.products{
+.products {
     overflow: hidden;
 }
 
-.promo-caption{
+.promo-caption {
     font-size: 1.7rem;
     font-weight: 500;
     margin-top: 5px;
     margin-bottom: 0;
+}
+
+#contactUs {
+    background-color: darkorange;
+    color: white;
+}
+
+#contactUs a {
+    color: white!important;
+}
+
+#contactUs a:link {
+    color: white!important;
+}
+
+.contact-caption {
+    font-size: 3rem;
+    margin-top: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.contact-caption+p {
+    color: white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.contact-caption:hover,
+.contact-caption + p:hover{
+    color: black;
+}
+
+
+/* label color */
+
+.input-field label {
+    color: #000!important;
+}
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: #fb8c00!important;
+}
+
+.input-field input[type=email]:focus+label {
+    color: #fb8c00!important;
+}
+
+.input-field textarea:focus+label {
+    color: #fb8c00!important;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fb8c00!important;
+    box-shadow: 0 1px 0 0 #fb8c00!important;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #fb8c00!important;
+    box-shadow: 0 1px 0 0 #fb8c00!important;
+}
+
+.input-field textarea:focus {
+    border-bottom: 1px solid #fb8c00!important;
+    box-shadow: 0 1px 0 0 #fb8c00!important;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #fb8c00!important;
+}
+
+.modal-footer {
+    margin-top: -80px;
 }

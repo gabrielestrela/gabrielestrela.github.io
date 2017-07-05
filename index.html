@@ -23,6 +23,9 @@
     <!-- Animate -->
     <link rel="stylesheet" href="CSS/animate/animate.css">
 
+    <!-- FontAwesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
     <!-- Proprietary -->
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" media="(max-width: 600px)" href="CSS/index_min-width.css">
@@ -58,7 +61,7 @@
         <div id="intro-caption">
             <div class="row">
                 <div class="col s12">
-                    <img src="/IMAGES/logo/LOGO-SMART-TOP.gif" alt="INTRO-LOGO" class="responsive-img" id="intro-logo">
+                    <img src="IMAGES/logo/LOGO-SMART-TOP.gif" alt="INTRO-LOGO" class="responsive-img" id="intro-logo">
                 </div>
                 <div class="col s12">
                     <blockquote class="flow-text">A Smart é o melhor lugar para encontrar os melhores eletrônicos e acessórios da região. Contamos com diversos produtos em nossa loja! Venha conferir!</blockquote>
@@ -98,7 +101,78 @@
         </div>
     </div>
     
+    <div id="services" class="row">
+        
+    </div>
+
     <div id="contactUs" class="row">
+        <div class="col s12 center">
+            <h2>Entre em Contato</h2>
+        </div>
+        <div class="container center">
+            <div class="col l3 m3 s12">
+                <a href="https://www.facebook.com/smartpompeia/" target="_blank">
+                    <i class="fa fa-facebook-official contact-caption" aria-hidden="true"></i>
+                    <p class="center">smartpompeia</p>
+                </a>
+            </div>
+            <div class="col l3 m3 s12">
+                <a href="#contactForm" id="contactModal">
+                    <i class="fa fa-envelope contact-caption" aria-hidden="true"></i>
+                    <p class="center">smartpompeia@outlook.com</p>
+                </a>
+            </div>
+            <div class="col l3 m3 s12">
+                <i class="fa fa-phone contact-caption" aria-hidden="true"></i>
+                <p class="center">(11) 3567-4533</p>
+            </div>
+            <div class="col l3 m3 s12">
+                <i class="fa fa-whatsapp contact-caption" aria-hidden="true"></i>
+                <p class="center">(11) 94230-0090</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div id="contactForm" class="modal bottom-sheet">
+        <div class="modal-content">
+            <h4 class="orange-text text-darken-1">Mande um email!</h4>
+            <div class="divider"></div>
+            <div class="section">
+                <div id="contactRow" class="row">
+                    <div class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">person_pin</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name" data-error="wrong" data-success="right">Nome</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">person_pin</i>
+                                <input id="last_name" type="text" class="validate">
+                                <label for="last_name" data-error="wrong" data-success="right">Sobrenome</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">mode_edit</i>
+                                <textarea id="icon_prefix2" class="materialize-textarea" data-length="600"></textarea>
+                                <label for="icon_prefix2">Mensagem</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">play_arrow</i></a>
+        </div>
+    </div>
+    
+    <div id="map" class="row">
         
     </div>
 
@@ -115,6 +189,7 @@
     <!-- Proprietary -->
     <script type="text/javascript" src="JS/sidenav.js"></script>
     <script type="text/javascript" src="JS/animations.js"></script>
+    <script type="text/javascript" src="JS/modals.js"></script>
 </body>
 
 </html>
