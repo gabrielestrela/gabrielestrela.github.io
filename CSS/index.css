@@ -3,6 +3,11 @@ body {
     height: 100%;
 }
 
+#sideNavLogo{
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
 #logo-image {
     position: relative;
     top: 8px;

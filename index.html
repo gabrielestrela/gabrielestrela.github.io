@@ -36,24 +36,32 @@
     <div class="navbar-fixed">
         <nav class="grey lighten-5">
             <div class="nav-wrapper container">
-                <a href="#!" class="brand-logo grey-text text-darken-4"><img src="IMAGES/logo/LogoOriginalTexto128.png" alt="Logo" class="responsive-img" id="logo-image"></a>
+                <a href="#intro" class="brand-logo grey-text text-darken-4"><img src="IMAGES/logo/LogoOriginalTexto128.png" alt="Logo" class="responsive-img" id="logo-image"></a>
                 <a href="#" data-activates="mobile-menu" class="button-collapse">
                     <i class="material-icons orange-text text-darken-1">menu</i>
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#" class="orange-text text-darken-1 waves-effect waves-light">Produtos</a></li>
-                    <li><a href="#" class="orange-text text-darken-1 waves-effect waves-light">Serviços</a></li>
-                    <li><a href="#" class="orange-text text-darken-1 waves-effect waves-light">Contato</a></li>
-                    <li><a href="#" class="orange-text text-darken-1 waves-effect waves-light">Localização</a></li>
+                    <li><a href="#products" class="orange-text text-darken-1 waves-effect waves-light">Produtos</a></li>
+                    <li><a href="#services" class="orange-text text-darken-1 waves-effect waves-light">Serviços</a></li>
+                    <li><a href="#contactUs" class="orange-text text-darken-1 waves-effect waves-light">Contato</a></li>
+                    <li><a href="#map" class="orange-text text-darken-1 waves-effect waves-light">Localização</a></li>
                 </ul>
             </div>
         </nav>
     </div>
     <ul class="side-nav" id="mobile-menu">
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Localização</a></li>
+        <li>
+            <div class="user-view">
+                <div class="background white"></div>
+                <a href="#!"><img id="sideNavLogo" src="IMAGES/logo/LogoOriginalTexto128.png" alt="sideNavLogo"></a>
+                <p class="orange-text center">A melhor loja de eletrônicos da região!</p>
+                <div class="divider orange lighten-3"></div>
+            </div>
+        </li>
+        <li><a href="#products"><i class="fa fa-shopping-bag left" aria-hidden="true"></i>Produtos</a></li>
+        <li><a href="#services"><i class="fa fa-cog left"></i>Serviços</a></li>
+        <li><a href="#contactUs"><i class="fa fa-phone left"></i>Contato</a></li>
+        <li><a href="#map"><i class="fa fa-map-marker left"></i>Localização</a></li>
     </ul>
 
     <section id="intro">
@@ -214,6 +222,35 @@
         </div>
     </div>
 
+    <br>
+    <div id="map" class="z-depth-3"></div>
+    <br>
+
+    <footer class="page-footer white">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="orange-text"><img src="IMAGES/logo/LogoOriginalTexto128.png" alt="footerLogo"></h5>
+                    <p class="orange-text text-darken-2">A melhor loja de eletrônicos e acessórios da região!</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="orange-text">Menu</h5>
+                    <ul>
+                        <li class="orange-text text-darken-1">Produtos</li>
+                        <li class="orange-text text-darken-1">Serviços</li>
+                        <li class="orange-text text-darken-1">Contato</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright orange-text text-darken-1">
+            <div class="container center">
+                © 2014 Copyright Gabriel Estrela
+            </div>
+        </div>
+    </footer>
+
+
     <!-- Modals -->
     <div id="contactForm" class="modal bottom-sheet">
         <div class="modal-content">
@@ -252,36 +289,6 @@
             <a href="#!" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></a>
         </div>
     </div>
-    
-    <br>
-    <div id="map" class="z-depth-5"></div>
-    <br>
-
-    <footer class="page-footer grey lighten-3">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="orange-text">Footer Content</h5>
-                    <p class="orange-text text-darken-2">You cans use...</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="orange-text">Links</h5>
-                    <ul>
-                        <li class="orange-text text-darken-1">Link 1</li>
-                        <li class="orange-text text-darken-1">Link 2</li>
-                        <li class="orange-text text-darken-1">Link 3</li>
-                        <li class="orange-text text-darken-1">Link 4</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright orange-text text-darken-1">
-            <div class="container">
-                © 2014 Copyright Text
-                <a href="#!" class="orange-text text-darken-2 right">More Links!</a>
-            </div>
-        </div>
-    </footer>
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -302,6 +309,7 @@
     <script type="text/javascript" src="JS/animations.js"></script>
     <script type="text/javascript" src="JS/modals.js"></script>
     <script type="text/javascript" src="JS/parallax.js"></script>
+    <script type="text/javascript" src="JS/scroll.js"></script>
 </body>
 
 </html>
