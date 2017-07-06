@@ -10,12 +10,14 @@ body {
 }
 
 #intro {
-    background: #d87e4f url(../IMAGES/Wallpapers/intro.jpg) top left no-repeat;
+/*    #d87e4f*/
+/*    url(../IMAGES/Wallpapers/intro.jpg)*/
+    background: white top left no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
     height: 100%;
-    box-shadow: inset 0 0 100px #000;
+/*    box-shadow: inset 0 0 100px #000;*/
     width: 100%;
 }
 
@@ -33,10 +35,12 @@ body {
 }
 
 #intro-caption blockquote {
-    border: 2px solid rgba(251, 140, 80, 0.5)!important;
+/*    border: 2px solid rgba(251, 140, 80, 0.5)!important;*/
+    border: 0px!important;
     font-size: 30px;
     padding-left: 0;
-    background-color: rgba(0, 0, 0, 0.2)
+/*    background-color: rgba(0, 0, 0, 0.2)*/
+    color: #d87e4f;
 }
 
 .center {
@@ -46,6 +50,10 @@ body {
 
 .promo {
     width: 100%;
+}
+
+.parallax-container{
+    height: 320px;
 }
 
 .products {
@@ -59,8 +67,16 @@ body {
     margin-bottom: 0;
 }
 
+.promo-shadow{
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 1);
+}
+
+.small{
+    height: 200px!important;
+}
+
 #contactUs {
-    background-color: darkorange;
+/*    background-color: darkorange;*/
     color: white;
 }
 
@@ -92,7 +108,7 @@ body {
 }
 
 .contact-caption:hover,
-.contact-caption + p:hover{
+.contact-caption+p:hover {
     color: black;
 }
 
@@ -145,5 +161,15 @@ body {
 
 .modal-footer {
     margin-top: -70px;
-    
+}
+
+.page-footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    /*
+    -webkit-box-shadow: 0px -4px 44px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -4px 44px -12px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0px -4px 44px -12px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0px -4px 44px -12px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -4px 44px -12px rgba(0, 0, 0, 0.75);
+*/
 }
