@@ -58,7 +58,7 @@ body {
 }
 
 .parallax-container {
-    height: 320px;
+    height: 330px;
 }
 
 .products {
@@ -76,8 +76,37 @@ body {
     text-shadow: 1px 2px 6px rgba(0, 0, 0, 1);
 }
 
+#products{
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#chargers{
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#periferals{
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#screenProtectors{
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
 .small {
-    height: 200px!important;
+    height: 240px!important;
 }
 
 #contactUs {
@@ -114,6 +143,12 @@ body {
 
 .contact-caption:hover {
     color: black;
+    font-size: 3.5rem;
+}
+
+#fixo:hover,
+#whats:hover{
+    cursor: pointer;
 }
 
 

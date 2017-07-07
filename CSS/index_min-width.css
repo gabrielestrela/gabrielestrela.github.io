@@ -4,19 +4,29 @@
         left: 15px;
     }
     #intro-caption blockquote {
-/*        border: 2px solid rgba(251, 140, 80, 0.5)!important;*/
+        /*        border: 2px solid rgba(251, 140, 80, 0.5)!important;*/
         font-size: 20px;
         color: orange;
         border: 0px;
-/*        background-color: rgba(0, 0, 0, 0.2);*/
+        /*        background-color: rgba(0, 0, 0, 0.2);*/
         padding-left: 0;
     }
-    
-    .parallax-container{
+    .parallax-container {
         height: 1250px;
     }
-    
-    .sizeFix{
+    .sizeFix {
         height: 620px!important;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    .parallax-container {
+        height: 1250px;
+    }
+    .sizeFix {
+        height: 580px!important;
+    }
+    .small{
+        height: 235px!important;
     }
 }

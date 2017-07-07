@@ -28,7 +28,7 @@
 
     <!-- Proprietary -->
     <link rel="stylesheet" href="CSS/index.css">
-    <link rel="stylesheet" media="(max-width: 600px)" href="CSS/index_min-width.css">
+    <link rel="stylesheet" href="CSS/index_min-width.css">
 </head>
 
 <body>
@@ -53,7 +53,7 @@
         <li>
             <div class="user-view">
                 <div class="background white"></div>
-                <a href="#!"><img id="sideNavLogo" src="IMAGES/logo/LogoOriginalTexto128.png" alt="sideNavLogo"></a>
+                <a href="#intro"><img id="sideNavLogo" src="IMAGES/logo/LogoOriginalTexto128.png" alt="sideNavLogo"></a>
                 <p class="orange-text center">A melhor loja de eletrônicos da região!</p>
                 <div class="divider orange lighten-3"></div>
             </div>
@@ -71,7 +71,7 @@
                     <img src="IMAGES/logo/LOGO-SMART-TOP.gif" alt="INTRO-LOGO" class="responsive-img" id="intro-logo">
                 </div>
                 <div class="col s12">
-                    <blockquote class="flow-text">A Smart é o melhor lugar para encontrar os melhores eletrônicos e acessórios da região. Contamos com diversos produtos em nossa loja! Venha conferir!</blockquote>
+                    <blockquote class="flow-text">Aqui você encontra uma grande variedade de produtos eletrônicos, inovações, novidades e tudo de legal que envolve o mundo tecnológico</blockquote>
                 </div>
             </div>
         </div>
@@ -80,32 +80,32 @@
     <div class="parallax-container">
         <div class="parallax"><img src="IMAGES/Wallpapers/introWhite.jpg" alt="Products"></div>
         <div id="products" class="row">
-            <div class="col l3 m12 s12">
-                <div class="center promo products">
+            <div class="col xl3 l3 m12 s12">
+                <div id="cables" class="center promo products">
                     <img src="IMAGES/icons/cable.png" alt="cabos" class="responsive-image">
                     <p class="promo-caption white-text promo-shadow">Cabos</p>
-                    <p class="light center white-text promo-shadow">Usb, micro-Usb, Usb C, Thunderbolt e muito mais!</p>
+                    <p class="light center white-text promo-shadow">USB, USB C, Lightning, Thunderbolt e outros</p>
                 </div>
             </div>
-            <div class="col l3 m12 s12">
-                <div class="center promo products">
+            <div class="col xl3 l3 m12 s12">
+                <div id="chargers" class="center promo products">
                     <img src="IMAGES/icons/charger.png" alt="carregadores" class="responsive-image">
                     <p class="promo-caption white-text promo-shadow">Carregadores</p>
-                    <p class="light center white-text promo-shadow">Possuímos carregadores para celulares Android, Iphone, Windows Phone!</p>
+                    <p class="light center white-text promo-shadow">Trabalhamos com carregadores para celulares, notebooks, e outros eletrônicos em geral</p>
                 </div>
             </div>
-            <div class="col l3 m12 s12">
-                <div class="center promo products">
+            <div class="col xl3 l3 m12 s12">
+                <div id="periferals" class="center promo products">
                     <img src="IMAGES/icons/keyboard.png" alt="acessorios" class="responsive-image">
                     <p class="promo-caption white-text promo-shadow">Periféricos</p>
-                    <p class="light center white-text promo-shadow">Aqui temos teclados, Fones Gamer, Roteadores, Mouses e muitos outros periféricos.</p>
+                    <p class="light center white-text promo-shadow">Mouses, teclados, fones, roteadores, repetidores, conectores, plugues e muito mais!</p>
                 </div>
             </div>
-            <div class="col l3 m12 s12">
-                <div class="center promo products">
+            <div class="col xl3 l3 m12 s12">
+                <div id="screenProtectors" class="center promo products">
                     <img src="IMAGES/icons/screen_protector.png" alt="peliculas" class="responsive-image">
                     <p class="promo-caption white-text promo-shadow">Películas</p>
-                    <p class="light center white-text promo-shadow">Vendemos películas para celulares Android e Iphones.</p>
+                    <p class="light center white-text promo-shadow">Impedir danos mais agressivos na tela do celular é tarefa para as películas de vidro, venha conferir!</p>
                 </div>
             </div>
         </div>
@@ -117,18 +117,18 @@
                 <h2 class="center orange-text">Serviços</h2>
             </div>
             <div class="container">
-                <div class="col s12 m4 l4">
+                <div class="col s12 m6 l4">
                     <div class="card small">
                         <div class="card-content">
                             <span class="card-title center">
-                                <i class="fa fa-wrench orange-text" aria-hidden="true"></i>
+                                <i class="fa fa-wrench orange-text " aria-hidden="true"></i>
                                 <h5>Assistência<br>Técnica</h5>
                             </span>
                             <p class="center light">Reparos e manutenções com profissionais qualificados</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l4">
+                <div class="col s12 m6 l4">
                     <div class="card small">
                         <div class="card-content">
                             <span class="card-title center">
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s12 m4 l4">
+                <div class="col s12 m6 l4">
                     <div class="card small">
                         <div class="card-content">
                             <span class="card-title center">
@@ -150,41 +150,37 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="container">
-            <div class="col s12 m4 l4">
-                <div class="card small">
-                    <div class="card-content">
-                        <span class="card-title center">
+                <div class="col s12 m6 l4">
+                    <div class="card small">
+                        <div class="card-content">
+                            <span class="card-title center">
                                 <i class="fa fa-hdd-o orange-text" aria-hidden="true"></i>
                                 <h5>Recuperação<br>de Dados</h5>
                             </span>
-                        <p class="center light">Recuperamos informações de HD's defeituosos e dados acidentalmente deletados</p>
+                            <p class="center light">Recuperamos informações de HD's defeituosos e dados acidentalmente deletados</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card small">
-                    <div class="card-content">
-                        <span class="card-title center">
+                <div class="col s12 m6 l4">
+                    <div class="card small">
+                        <div class="card-content">
+                            <span class="card-title center">
                                 <i class="fa fa-heartbeat orange-text" aria-hidden="true"></i>
                                 <h5>Remoção<br>de Vírus e Malwares</h5>
                             </span>
-                        <p class="center light">Removemos os vírus que podem prejudicar sua privacidade e segurança.</p>
+                            <p class="center light">Removemos os vírus que podem prejudicar sua privacidade e segurança</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col s12 m4 l4">
-                <div class="card small">
-                    <div class="card-content">
-                        <span class="card-title center">
+                <div class="col s12 m6 l4">
+                    <div class="card small">
+                        <div class="card-content">
+                            <span class="card-title center">
                                 <i class="fa fa-user-o orange-text" aria-hidden="true"></i>
                                 <h5>Visita<br>Corporativa e Domiciliar</h5>
                             </span>
-                        <p class="center light">Possuimos profissionais altamente capacitados, atendendo na sua casa e/ou na sua empresa</p>
+                            <p class="center light">Possuimos profissionais altamente capacitados, atendendo na sua casa e/ou na sua empresa</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -198,23 +194,23 @@
                 <h2>Entre em Contato</h2>
             </div>
             <div class="container center">
-                <div class="col l3 m3 s12">
+                <div class="col l3 m12 s12">
                     <a href="https://www.facebook.com/smartpompeia/" target="_blank">
                         <i class="fa fa-facebook-official contact-caption" aria-hidden="true"></i>
                         <p class="center">smartpompeia</p>
                     </a>
                 </div>
-                <div class="col l3 m3 s12">
+                <div class="col l3 m12 s12">
                     <a href="#contactForm" id="contactModal">
                         <i class="fa fa-envelope contact-caption" aria-hidden="true"></i>
                         <p class="center">smartpompeia@outlook.com</p>
                     </a>
                 </div>
-                <div class="col l3 m3 s12">
+                <div id="fixo" class="col l3 m12 s12">
                     <i class="fa fa-phone contact-caption" aria-hidden="true"></i>
                     <p class="center">(11) 3567-4533</p>
                 </div>
-                <div class="col l3 m3 s12">
+                <div id="whats" class="col l3 m12 s12">
                     <i class="fa fa-whatsapp contact-caption" aria-hidden="true"></i>
                     <p class="center">(11) 94230-0090</p>
                 </div>
@@ -230,22 +226,44 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="orange-text"><img src="IMAGES/logo/LogoOriginalTexto128.png" alt="footerLogo"></h5>
-                    <p class="orange-text text-darken-2">A melhor loja de eletrônicos e acessórios da região!</p>
+                    <h5 class="orange-text center"><img src="IMAGES/logo/LogoOriginalTexto128.png" alt="footerLogo"></h5>
+                    <h6 class="orange-text text-darken-2 center">Smart Eletrônicos e Acessórios</h6>
+                    <p class="orange-text text-darken-2 center">Avenida Professor Alfonso Bovero, 1231</p>
+                    <p class="orange-text text-darken-2 center">Tel. 3567 4533</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="orange-text">Menu</h5>
+                    <h5 class="orange-text center">Menu</h5>
+                    <div class="divider"></div>
                     <ul>
-                        <li class="orange-text text-darken-1">Produtos</li>
-                        <li class="orange-text text-darken-1">Serviços</li>
-                        <li class="orange-text text-darken-1">Contato</li>
+                        <div class="row center">
+                            <div class="col s3 m3 l3">
+                                <a href="#intro">
+                                    <li class="orange-text text-darken-1">Home</li>
+                                </a>
+                            </div>
+                            <div class="col s3 m3 l3">
+                                <a href="#products">
+                                    <li class="orange-text text-darken-1">Produtos</li>
+                                </a>
+                            </div>
+                            <div class="col s3 m3 l3">
+                                <a href="#services">
+                                    <li class="orange-text text-darken-1">Serviços</li>
+                                </a>
+                            </div>
+                            <div class="col s3 m3 l3">
+                                <a href="#contactUs">
+                                    <li class="orange-text text-darken-1">Contato</li>
+                                </a>
+                            </div>
+                        </div>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-copyright orange-text text-darken-1">
             <div class="container center">
-                © 2014 Copyright Gabriel Estrela
+                © 2017-2018 Copyright Gabriel Estrela -
             </div>
         </div>
     </footer>
@@ -257,36 +275,39 @@
             <h4 class="orange-text text-darken-1">Mande um email!</h4>
             <div class="divider"></div>
             <div class="section">
-                <div id="contactRow" class="row">
-                    <div class="col s12">
-                        <div class="row">
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">person_pin</i>
-                                <input id="first_name" type="text" class="validate">
-                                <label for="first_name" data-error="wrong" data-success="right">Nome</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <i class="material-icons prefix">person_pin</i>
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name" data-error="wrong" data-success="right">Sobrenome</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">email</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email" data-error="wrong" data-success="right">Email</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">mode_edit</i>
-                                <textarea id="icon_prefix2" class="materialize-textarea" data-length="600"></textarea>
-                                <label for="icon_prefix2">Mensagem</label>
+                <form method="post" id="contactForm" action="PHP/mailHandler.php">
+                    <div id="contactRow" class="row">
+                        <div class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">person_pin</i>
+                                    <input id="first_name" name="first_name" type="text" class="validate">
+                                    <label for="first_name" data-error="wrong" data-success="right">Nome</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <i class="material-icons prefix">person_pin</i>
+                                    <input id="last_name" name="last_name" type="text" class="validate">
+                                    <label for="last_name" data-error="wrong" data-success="right">Sobrenome</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">email</i>
+                                    <input id="email" type="email" name="email" class="validate">
+                                    <label for="email" data-error="wrong" data-success="right">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <i class="material-icons prefix">mode_edit</i>
+                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea" data-length="600" maxlength="600"></textarea>
+                                    <label for="icon_prefix2">Mensagem</label>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></a>
+            <!--            <a href="javascript:;" onclick="document.getElementById('contactForm').submit();" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></a>-->
+            <button type="submit" form="contactForm" value="Submit" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></button>
         </div>
     </div>
 
@@ -310,6 +331,7 @@
     <script type="text/javascript" src="JS/modals.js"></script>
     <script type="text/javascript" src="JS/parallax.js"></script>
     <script type="text/javascript" src="JS/scroll.js"></script>
+    <script type="text/javascript" src="JS/copyPaste.js"></script>
 </body>
 
 </html>
