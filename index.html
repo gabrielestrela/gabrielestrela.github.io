@@ -236,22 +236,22 @@
                     <div class="divider"></div>
                     <ul>
                         <div class="row center">
-                            <div class="col s3 m3 l3">
+                            <div class="col s3 m3 l12">
                                 <a href="#intro">
                                     <li class="orange-text text-darken-1">Home</li>
                                 </a>
                             </div>
-                            <div class="col s3 m3 l3">
+                            <div class="col s3 m3 l12">
                                 <a href="#products">
                                     <li class="orange-text text-darken-1">Produtos</li>
                                 </a>
                             </div>
-                            <div class="col s3 m3 l3">
+                            <div class="col s3 m3 l12">
                                 <a href="#services">
                                     <li class="orange-text text-darken-1">Serviços</li>
                                 </a>
                             </div>
-                            <div class="col s3 m3 l3">
+                            <div class="col s3 m3 l12">
                                 <a href="#contactUs">
                                     <li class="orange-text text-darken-1">Contato</li>
                                 </a>
@@ -281,22 +281,22 @@
                             <div class="row">
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">person_pin</i>
-                                    <input id="first_name" name="first_name" type="text" class="validate">
+                                    <input id="first_name" name="first_name" type="text" class="validate" required>
                                     <label for="first_name" data-error="wrong" data-success="right">Nome</label>
                                 </div>
                                 <div class="input-field col s6">
                                     <i class="material-icons prefix">person_pin</i>
-                                    <input id="last_name" name="last_name" type="text" class="validate">
+                                    <input id="last_name" name="last_name" type="text" class="validate" required>
                                     <label for="last_name" data-error="wrong" data-success="right">Sobrenome</label>
                                 </div>
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">email</i>
-                                    <input id="email" type="email" name="email" class="validate">
+                                    <input id="email" type="email" name="email" class="validate" required>
                                     <label for="email" data-error="wrong" data-success="right">Email</label>
                                 </div>
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix">mode_edit</i>
-                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea" data-length="600" maxlength="600"></textarea>
+                                    <textarea id="icon_prefix2" name="message" class="materialize-textarea" data-length="600" maxlength="600" required></textarea>
                                     <label for="icon_prefix2">Mensagem</label>
                                 </div>
                             </div>
@@ -307,7 +307,7 @@
         </div>
         <div class="modal-footer">
             <!--            <a href="javascript:;" onclick="document.getElementById('contactForm').submit();" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></a>-->
-            <button type="submit" form="contactForm" value="Submit" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></button>
+            <button name="contactSubmit" type="submit" form="contactForm" value="Submit" class="waves-effect waves-light btn orange darken-1 grey-text text-darken-4">Enviar<i class="material-icons right">send</i></button>
         </div>
     </div>
 
