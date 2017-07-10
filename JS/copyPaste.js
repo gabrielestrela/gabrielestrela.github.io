@@ -6,6 +6,16 @@ $(document).ready(function () {
     //        //        console.log(textArea.value);
     //        copyTextToClipboard(tel);
     //    });
+    if (bowser.safari) {
+        document.getElementById("fixo").addEventListener("click", function () {
+            Materialize.toast("Safari ainda não suporta esta função!", 1000);
+        });
+
+        document.getElementById("whats").addEventListener("click", function () {
+            Materialize.toast("Safari ainda não suporta esta função!", 1000);
+        });
+    }
+
     document.getElementById("fixo").addEventListener("click", function () {
         var tel = $("#fixo p").text();
         copyTextToClipboard(tel);
