@@ -17,7 +17,7 @@ body {
 #intro {
     /*    #d87e4f*/
     /*    url(../IMAGES/Wallpapers/intro.jpg)*/
-    background: white top left no-repeat;
+    background: black top left no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
